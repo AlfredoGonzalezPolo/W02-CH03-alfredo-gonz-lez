@@ -11,7 +11,7 @@ const handleIncrementButton = () => {
   counterValue.textContent = value;
 };
 
-const handleDecrementButton = () => {
+export const handleDecrementButton = () => {
   value = Number(counterValue.textContent) - 1;
   if (value < 0) {
     value = 0;
